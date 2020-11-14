@@ -6,11 +6,11 @@
 ##############################################################
 
 #TODO: Fill up the contents below in order to reference your assignment 3 git contents
-AESD_ASSIGNMENTS_VERSION = 40dce41166ace83445d0d3e826299edea33592c7
+AESD_ASSIGNMENTS_VERSION = 8692c22bff6bea418b7ce9dd48843262fc60b15a
 # Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
 # with ssh keys and the automated build/test system.
 # Your site should start with git@github.com:
-AESD_ASSIGNMENTS_SITE = git@github.com:cu-ecen-5013/assignment-3-anpr9067.git
+AESD_ASSIGNMENTS_SITE = git@github.com:cu-ecen-5013/final-project-anpr9067.git
 AESD_ASSIGNMENTS_SITE_METHOD = git
 AESD_ASSIGNMENTS_GIT_SUBMODULES = YES
 
