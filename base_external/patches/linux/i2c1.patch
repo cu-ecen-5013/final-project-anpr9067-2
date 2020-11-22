@@ -11,7 +11,7 @@ index 9abc1f3&i2c2 {
 	pinctrl-0 = <&i2c2_pins>;..d3ec5c3 100644
 --- a/arch/arm/boot/dts/am335x-bone-common.dtsi
 +++ b/arch/arm/boot/dts/am335x-bone-common.dtsi
-@@ -74,5 +74,12 @@
+@@ -85,5 +85,12 @@
  		>;
  	};
 
@@ -22,7 +22,7 @@ index 9abc1f3&i2c2 {
 +		>;
 +	};
 +
-	i2c0_pins: pinmux_i2c0_pins {
+	i2c2_pins: pinmux_i2c2_pins {
 		pinctrl-single,pins = <
 @@ -294,4 +299,12 @@
 
@@ -37,5 +37,5 @@ index 9abc1f3&i2c2 {
  &i2c2 {
 	pinctrl-names = "default";
 	pinctrl-0 = <&i2c2_pins>;
---
+-- 
 2.17.2
