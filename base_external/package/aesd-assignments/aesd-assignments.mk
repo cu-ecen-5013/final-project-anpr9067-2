@@ -6,7 +6,7 @@
 ##############################################################
 
 #TODO: Fill up the contents below in order to reference your assignment 3 git contents
-AESD_ASSIGNMENTS_VERSION = fc35b1ee0e83ba564fec42eb193d498b3fce060e
+AESD_ASSIGNMENTS_VERSION = 19c9fc02a77296aa2d12d8cbe307b7025bbc3709
 # Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
 # with ssh keys and the automated build/test system.
 # Your site should start with git@github.com:
@@ -20,7 +20,8 @@ endef
 
 # TODO add your writer, finder and tester utilities/scripts to the installation steps below
 define AESD_ASSIGNMENTS_INSTALL_TARGET_CMDS
-	$(INSTALL) -d 0755 $(@D)/i2cdriver $(TARGET_DIR)/usr/bin/
+	#$(INSTALL) -m 0755 $(@D)/i2cdriver $(TARGET_DIR)/usr/bin/
+	#$(INSTALL) -m 0755 $(@D)/client $(TARGET_DIR)/usr/bin/
 	#$(INSTALL) -m 0755 $(@D)/conf/* $(TARGET_DIR)/usr/bin/conf/
 	#$(INSTALL) -m 0755 $(@D)/assignment-autotest/test/assignment4/* $(TARGET_DIR)/bin
 	$(INSTALL) -m 0755 $(@D)/server $(TARGET_DIR)/usr/bin/
